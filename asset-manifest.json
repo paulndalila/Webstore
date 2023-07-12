@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/webstore/static/css/main.ce2167a3.css",
+    "main.css": "/webstore/static/css/main.e533f352.css",
     "main.js": "/webstore/static/js/main.4520569a.js",
     "static/media/Crispy Os.png": "/webstore/static/media/Crispy Os.65ca0d8aa769bb2d1580.png",
     "static/media/Business Laptop Elite.jpg": "/webstore/static/media/Business Laptop Elite.1af85a8b86df578d0ea1.jpg",
@@ -28,11 +28,11 @@
     "static/media/Samsung Galaxy S21 Ultr.jpg": "/webstore/static/media/Samsung Galaxy S21 Ultr.a7dc949156b1114a9442.jpg",
     "static/media/Sleek Clutch.jpg": "/webstore/static/media/Sleek Clutch.3ec36a21b64fe181d521.jpg",
     "index.html": "/webstore/index.html",
-    "main.ce2167a3.css.map": "/webstore/static/css/main.ce2167a3.css.map",
+    "main.e533f352.css.map": "/webstore/static/css/main.e533f352.css.map",
     "main.4520569a.js.map": "/webstore/static/js/main.4520569a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce2167a3.css",
+    "static/css/main.e533f352.css",
     "static/js/main.4520569a.js"
   ]
 }
