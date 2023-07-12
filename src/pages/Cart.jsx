@@ -1,4 +1,6 @@
 import React from 'react';
+import c1 from '../images/cereals/Weetabix.png'
+import b1 from '../images/bags/Leather Tote Bag.jpg'
 
 // const Cart = ({ cartItems, removeFromCart }) => {
 function Cart(){
@@ -24,8 +26,8 @@ function Cart(){
 
             <div>
                 <div className='cart-item'>
-                    <img src="" alt="weetabix" />
-                    <div>
+                    <img src={ c1 } alt="weetabix" />
+                    <div className='cart-item-details'>
                         <h3>Weetabix</h3>
                         <p>Perfect nutritious cereal product for kids growth</p>
                         <p>Ksh. 645</p>
@@ -34,8 +36,8 @@ function Cart(){
                 </div>
 
                 <div className='cart-item'>
-                    <img src="" alt="Leather Tote Bag" />
-                    <div>
+                    <img src={ b1 } alt="Leather Tote Bag" />
+                    <div  className='cart-item-details'>
                         <h3>Leather Tote Bag</h3>
                         <p>Spacious and stylish leather tote bag for everyday use</p>
                         <p>Ksh. 2000</p>

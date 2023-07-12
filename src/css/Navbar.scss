@@ -1,7 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .navbar{
     // position: fixed;
     // top: 0;
     // left: 0;
+    position: relative;
     width: 100%;
     display: flex;
     align-items: center;
@@ -52,6 +57,30 @@
     justify-content: center;
     font-size: 13px;
     align-items: center;
+}
+
+#hamburger{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.685);
+    height: 30px;
+    width: 1.5cm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+    z-index: 9999;
+}
+
+#hamburger div{
+    width: 40px;
+    height: 2px;
+    background-color: #272525;
 }
 
 // footer section
@@ -154,17 +183,12 @@
         height: 40px;
     }
 
-    .navbar .tabs{
-        gap: 20px;
-        padding-right: 10px;
-    }
-
     .navbar .tabs img{
-        height: 15px;
+        height: 20px;
     }
     
     .navbar .tabs a{
-        font-size: 12px;
+        font-size: 16px;
     }
     .navbar .tab:hover{
         border-bottom: 1px solid #FF3366;
@@ -172,6 +196,67 @@
     
     .navbar .tabs .active{
         border-bottom: 1px solid #FF3366;
+    }
+
+    
+    #hamburger{
+        display: flex;
+        border: none;
+        top: 5px;
+    }
+
+    
+    .navbar .tabs{
+        position: fixed;
+        flex-direction: column;
+        background-color: #dee484;
+        height: 100vh;
+        width: 75vw;
+        top: 0;
+        left: -100%;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        animation: toggleHamburger;
+        animation-fill-mode: forwards;
+        animation-duration: .5s;
+        animation-timing-function: ease-in-out;
+        border: 1px solid orangered;
+    }
+
+    .navbar .tabs a{
+        color: black;
+    }
+
+    @keyframes toggleHamburger {
+        0%{
+            left: -100%;
+        }
+
+        100%{
+            left: 0%;
+        }
+    }
+
+    
+    .navbar .shrinked{
+        display: none;
+    }
+
+    .navbar .tab{
+        padding: 10px;
+        width: 100px;
+        border-radius: 10px;
+    }
+    .navbar .tab:hover{
+        border: 1px solid orangered;
+        box-shadow: 0 0 10px orange;
+    }
+    
+    .navbar .tabs .active{
+        border: 1px solid orangered;
+        background-color: rgb(240, 199, 122);
     }
     
     // footer section
