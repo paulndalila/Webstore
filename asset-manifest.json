@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webstore/static/css/main.ffcdbcf2.css",
-    "main.js": "/webstore/static/js/main.37e2a841.js",
+    "main.css": "/webstore/static/css/main.bc98e976.css",
+    "main.js": "/webstore/static/js/main.aabf9e64.js",
     "static/media/Crispy Os.png": "/webstore/static/media/Crispy Os.65ca0d8aa769bb2d1580.png",
     "static/media/Business Laptop Elite.jpg": "/webstore/static/media/Business Laptop Elite.1af85a8b86df578d0ea1.jpg",
     "static/media/iPhone 13 Pro.png": "/webstore/static/media/iPhone 13 Pro.3ead8867b63e3402505a.png",
@@ -28,11 +28,11 @@
     "static/media/Samsung Galaxy S21 Ultr.jpg": "/webstore/static/media/Samsung Galaxy S21 Ultr.a7dc949156b1114a9442.jpg",
     "static/media/Sleek Clutch.jpg": "/webstore/static/media/Sleek Clutch.3ec36a21b64fe181d521.jpg",
     "index.html": "/webstore/index.html",
-    "main.ffcdbcf2.css.map": "/webstore/static/css/main.ffcdbcf2.css.map",
-    "main.37e2a841.js.map": "/webstore/static/js/main.37e2a841.js.map"
+    "main.bc98e976.css.map": "/webstore/static/css/main.bc98e976.css.map",
+    "main.aabf9e64.js.map": "/webstore/static/js/main.aabf9e64.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffcdbcf2.css",
-    "static/js/main.37e2a841.js"
+    "static/css/main.bc98e976.css",
+    "static/js/main.aabf9e64.js"
   ]
 }
