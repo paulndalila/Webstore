@@ -1,15 +1,38 @@
 {
   "files": {
-    "main.css": "/webstore/static/css/main.27e1d772.css",
-    "main.js": "/webstore/static/js/main.49ce9f28.js",
-    "static/media/gg.png": "/webstore/static/media/gg.3c9d46e8f9cee0f31b6b.png",
+    "main.css": "/webstore/static/css/main.ffcdbcf2.css",
+    "main.js": "/webstore/static/js/main.37e2a841.js",
+    "static/media/Crispy Os.png": "/webstore/static/media/Crispy Os.65ca0d8aa769bb2d1580.png",
+    "static/media/Business Laptop Elite.jpg": "/webstore/static/media/Business Laptop Elite.1af85a8b86df578d0ea1.jpg",
+    "static/media/iPhone 13 Pro.png": "/webstore/static/media/iPhone 13 Pro.3ead8867b63e3402505a.png",
     "static/media/welcomee.jpg": "/webstore/static/media/welcomee.8d1747664ddde6a50ee6.jpg",
+    "static/media/Google Pixel 6 Pro.jpg": "/webstore/static/media/Google Pixel 6 Pro.e94530dcccb4d0428796.jpg",
+    "static/media/Chocolate Flakes.png": "/webstore/static/media/Chocolate Flakes.1ca9dee597cdd160dd5d.png",
+    "static/media/Leather Tote Bag.jpg": "/webstore/static/media/Leather Tote Bag.abd3c28e0397111cd055.jpg",
+    "static/media/cinna.jfif": "/webstore/static/media/cinna.db2c690771364b248860.jfif",
+    "static/media/Weetabix.png": "/webstore/static/media/Weetabix.74b8b50b0ba5d684ffce.png",
+    "static/media/Running Shoes.jpg": "/webstore/static/media/Running Shoes.22f00a36e6d09cb723af.jpg",
+    "static/media/Budget Laptop Basic.jpg": "/webstore/static/media/Budget Laptop Basic.404a6ceff144cf906732.jpg",
+    "static/media/Convertible Laptop Flex.jpg": "/webstore/static/media/Convertible Laptop Flex.5f4ac03aaf8024824d4c.jpg",
+    "static/media/Weekender Duffel Bag.jpg": "/webstore/static/media/Weekender Duffel Bag.f9a30d17ad7401a908ff.jpg",
+    "static/media/Backpack with Laptop Compartment.jpg": "/webstore/static/media/Backpack with Laptop Compartment.b088bca2dc8655f41f66.jpg",
+    "static/media/Fruit Rings.jpg": "/webstore/static/media/Fruit Rings.57f472199cc770824088.jpg",
+    "static/media/Hiking Boots.jpg": "/webstore/static/media/Hiking Boots.b0bcd1a1af06bd1c38da.jpg",
+    "static/media/Casual Sneakers.jpg": "/webstore/static/media/Casual Sneakers.e723caa83330a2c19271.jpg",
+    "static/media/Formal Dress Shoes.jpg": "/webstore/static/media/Formal Dress Shoes.ecd0b4fada277487033a.jpg",
+    "static/media/Gaming Laptop Pro.jpg": "/webstore/static/media/Gaming Laptop Pro.5562105f1ad95eb53c9b.jpg",
+    "static/media/iPhone SE.jpg": "/webstore/static/media/iPhone SE.a2c020d680202bd29b47.jpg",
+    "static/media/Ultrabook X1.jpg": "/webstore/static/media/Ultrabook X1.85c1ffd08b19ba6a40e4.jpg",
+    "static/media/Athletic Trainers.jpg": "/webstore/static/media/Athletic Trainers.22b905cd8d088deaae74.jpg",
+    "static/media/Crossbody Messenger Bag.jpg": "/webstore/static/media/Crossbody Messenger Bag.1276a6451bc677e9f5b5.jpg",
+    "static/media/Samsung Galaxy S21 Ultr.jpg": "/webstore/static/media/Samsung Galaxy S21 Ultr.a7dc949156b1114a9442.jpg",
+    "static/media/Sleek Clutch.jpg": "/webstore/static/media/Sleek Clutch.3ec36a21b64fe181d521.jpg",
     "index.html": "/webstore/index.html",
-    "main.27e1d772.css.map": "/webstore/static/css/main.27e1d772.css.map",
-    "main.49ce9f28.js.map": "/webstore/static/js/main.49ce9f28.js.map"
+    "main.ffcdbcf2.css.map": "/webstore/static/css/main.ffcdbcf2.css.map",
+    "main.37e2a841.js.map": "/webstore/static/js/main.37e2a841.js.map"
   },
   "entrypoints": [
-    "static/css/main.27e1d772.css",
-    "static/js/main.49ce9f28.js"
+    "static/css/main.ffcdbcf2.css",
+    "static/js/main.37e2a841.js"
   ]
 }
