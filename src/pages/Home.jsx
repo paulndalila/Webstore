@@ -52,6 +52,7 @@ function Home() {
 
                 <div className='cereals product' id='cereals'>
                     <h1>Cereals</h1>
+                    <hr/>
                     <div className='card-container'>
                         {cereals.map((cereal)=>(
                             <div key={cereal.id} onClick={ handleClick } className='cereal-card card' >
@@ -66,6 +67,7 @@ function Home() {
 
                 <div className='shoes product' >
                     <h1>Shoes</h1>
+                    <hr/>
                     <div className='card-container'>
                         {shoes.map((shoe)=>(
                             <div key={shoe.id} onClick={ handleClick } className='shoe-card card' >
@@ -77,9 +79,11 @@ function Home() {
                         ))}
                     </div>
                 </div>
+                
 
                 <div className='smartphones product' >
                     <h1>Smartphones</h1>
+                    <hr/>
                     <div className='card-container'>
                         {phones.map((phone)=>(
                             <div key={phone.id} onClick={ handleClick } className='phone-card card' >
@@ -94,6 +98,7 @@ function Home() {
 
                 <div className='Bags product' >
                     <h1>Bags</h1>
+                    <hr/>
                     <div className='card-container'>
                         {bags.map((bag)=>(
                             <div key={bag.id} onClick={ handleClick } className='bag-card card' >
@@ -108,6 +113,7 @@ function Home() {
 
                 <div className='laptops product' >
                     <h1>Laptops</h1>
+                    <hr/>
                     <div className='card-container'>
                         {laptops.map((laptop)=>(
                             <div key={laptop.id} onClick={ handleClick } className='laptop-card card' >

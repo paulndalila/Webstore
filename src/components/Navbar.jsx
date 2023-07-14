@@ -15,15 +15,19 @@ function Navbar() {
       setIsActive(!isActive);
     };
 
+    const handleTabClick = () =>{
+        setIsActive(!isActive);
+    }
+
     return (
         <div className='navbar'>
             <div className='title-logo'> <img src={ cart } alt='shopping-cart' /> <h1>VivaLuxe Webstore.</h1> </div>
             <ul className={`tabs ${isActive ? 'shrinked' : ''}`}>
-                <NavLink to='/' className='nav tab'><img src={ home } alt='home' />Home</NavLink>
-                <NavLink to='cart' className='nav tab'><img src={ cart } alt='cart' />Cart</NavLink>
-                <NavLink to='about' className='nav tab'><img src={ about } alt='about' />About</NavLink>
-                <NavLink to='contact' className='nav tab'><img src={ contact } alt='contact' />Contact</NavLink>
-                <NavLink to='account/' className='nav tab' ><img src={ account } alt='account' />Account</NavLink>
+                <NavLink to='/' className='nav tab' onClick={ handleTabClick } ><img src={ home } alt='home' />Home</NavLink>
+                <NavLink to='cart' className='nav tab' onClick={ handleTabClick }><img src={ cart } alt='cart' />Cart</NavLink>
+                <NavLink to='about' className='nav tab' onClick={ handleTabClick }><img src={ about } alt='about' />About</NavLink>
+                <NavLink to='contact' className='nav tab' onClick={ handleTabClick }><img src={ contact } alt='contact' />Contact</NavLink>
+                <NavLink to='account/' className='nav tab'  onClick={ handleTabClick } ><img src={ account } alt='account' />Account</NavLink>
             </ul>
             
             <div id="hamburger" onClick={ handleClick }>
